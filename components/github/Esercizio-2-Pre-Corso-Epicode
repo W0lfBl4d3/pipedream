@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati su StreamFi</title>
+</head>
+<body>
+    <h1><span style="color:green"> StreamFi</h1></span>
+    <h2>Musica ovunque tu voglia</h2>
+    <h3>Registrati ora!</h3>
+    <form onsubmit="alert('Registrazione inviata')">
+    <div>
+    <input type="text" placeholder="Nome">   
+    <input type="text" placeholder="Cognome">
+    <div>
+    <input type="text" placeholder="Username">
+    </div>
+    <input type="email" placeholder="Email">
+    <div>
+    <input type="password" placeholder="Password">
+    <input type="password" placeholder="Conferma password">
+    </div>
+    <input type="number" placeholder="Numero di cellulare">
+    <div>
+        <h4>Quando sei nato?</h4>
+    </div>
+    <input type="date" placeholder="Data di nascita">
+    <p>manca davvero pochissimo al termine della tua registrazione! Manca solamente conoscere i tuoi generi preferiti.
+    </p>
+        <fieldset>
+            <legend>Seleziona i generi che più ti appassionano</legend>
+            <div>
+              <input type="checkbox" id="Pop" name="Pop">
+              <label for="Pop">Pop</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Rock" name="Rock">
+              <label for="Rock">Rock</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Metal" name="Metal">
+                <label for="Metal">Metal</label>
+             </div>
+             <div>
+                <input type="checkbox" id="HipHop" name="HipHop">
+                <label for="HipHop">HipHop</label>      
+             </div>
+             <div>
+                <input type="checkbox" name="Altri generi" id="Altri generi">
+                <label for="Altri generi">Altri generi</label>             
+             </div>
+            </fieldset>        
+            <button type="submit" onclick="alert('Registrazione completata!')">Invia registrazione</button>
+             </form>
+
+    
+</body>
+</html>
